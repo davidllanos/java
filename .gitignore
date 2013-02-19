@@ -4,3 +4,16 @@
 *.jar
 *.war
 *.ear
+
+# Ignoring eclispe project files
+.classpath
+.project
+*.settings/
+.checkstyle
+
+# Ignoring target folders
+target/
+*/target/**
+
+# Ignoring OS files
+*.DS_Store
